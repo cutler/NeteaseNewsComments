@@ -4,7 +4,8 @@
 
 在 https://github.com/whyalwaysmea/floorView 基础上进行修改，解决若干bug、性能优化。
 
-[download apk](https://github.com/cutler/NeteaseNewsComments/tree/master/screenshots/app-debug.apk)
+
+<br>下载Demo： [apk](https://github.com/cutler/NeteaseNewsComments/tree/master/screenshots/app-debug.apk)
 
 
 <br>屏幕截图：
