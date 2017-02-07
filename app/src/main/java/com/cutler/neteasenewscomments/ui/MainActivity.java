@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
     public static final String TEST_JSON_2 = "[{\"floorId\":3,\"userName\":\"ssk\",\"userPhoto\":\"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png\",\"content\":\"可以，很强势\"},{\"floorId\":4,\"userName\":\"据目击者称\",\"userPhoto\":\"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png\",\"content\":\"可以，很强势\"},{\"floorId\":5,\"userName\":\"据目击者称\",\"userPhoto\":\"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png\",\"content\":\"可以，很强势\"},{\"floorId\":6,\"userName\":\"据目击者称\",\"userPhoto\":\"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png\",\"content\":\"可以，很强势\"},{\"floorId\":7,\"userName\":\"据目击者称\",\"userPhoto\":\"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png\",\"content\":\"可以，很强势\"},{\"floorId\":8,\"userName\":\"据目击者称\",\"userPhoto\":\"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png\",\"content\":\"可以，很强势\"},{\"floorId\":9,\"userName\":\"据目击者称\",\"userPhoto\":\"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png\",\"content\":\"可以，很强势\"},{\"floorId\":10,\"userName\":\"据目击者称\",\"userPhoto\":\"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png\",\"content\":\"可以，很强势\"}]";
 
     private RecyclerView mRecyclerView;
-    private FloorAdapter mAdapter;
+    private TopicAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mAdapter = new FloorAdapter();
+        mAdapter = new TopicAdapter();
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
         mLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
